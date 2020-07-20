@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './munni.jpg';
+import logo from './logp.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello munni
+          Chalo ab wapas Zameen py a jaao
         </p>
         <a
           className="App-link"
