@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import Anotherfunction from './Anotherfunction'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Cyber Times
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Anotherfunction testObj="this is just for testing"/>
     </div>
   );
 }
